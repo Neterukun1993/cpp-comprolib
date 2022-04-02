@@ -4,6 +4,9 @@ data:
   - name: src/data-structure
     pages:
     - icon: ':heavy_check_mark:'
+      path: src/data-structure/binary-indexed-tree.hpp
+      title: src/data-structure/binary-indexed-tree.hpp
+    - icon: ':heavy_check_mark:'
       path: src/data-structure/cumulative-sum-2d.hpp
       title: src/data-structure/cumulative-sum-2d.hpp
     - icon: ':heavy_check_mark:'
@@ -17,6 +20,9 @@ data:
       title: tests/aoj/0098.test.cpp
   - name: tests/library_checker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: tests/library_checker/point_add_range_sum.test.cpp
+      title: tests/library_checker/point_add_range_sum.test.cpp
     - icon: ':heavy_check_mark:'
       path: tests/library_checker/unionfind.test.cpp
       title: tests/library_checker/unionfind.test.cpp
