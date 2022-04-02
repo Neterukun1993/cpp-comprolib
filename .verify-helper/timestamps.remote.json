@@ -1,5 +1,8 @@
 {
 "tests/aoj/0098.test.cpp": "2022-04-03 01:44:06 +0900",
+"tests/aoj/ALDS1_11_C.test.cpp": "2022-04-03 02:12:44 +0900",
+"tests/aoj/GRL_1_A.test.cpp": "2022-04-03 02:16:33 +0900",
 "tests/library_checker/point_add_range_sum.test.cpp": "2022-04-03 01:54:56 +0900",
+"tests/library_checker/static_range_sum.test.cpp": "2022-04-03 02:10:20 +0900",
 "tests/library_checker/unionfind.test.cpp": "2022-04-03 01:52:28 +0900"
 }
