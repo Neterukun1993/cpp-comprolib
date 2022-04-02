@@ -10,19 +10,39 @@ data:
       path: src/data-structure/cumulative-sum-2d.hpp
       title: src/data-structure/cumulative-sum-2d.hpp
     - icon: ':heavy_check_mark:'
+      path: src/data-structure/cumulative-sum.hpp
+      title: src/data-structure/cumulative-sum.hpp
+    - icon: ':heavy_check_mark:'
       path: src/data-structure/union-find.hpp
       title: src/data-structure/union-find.hpp
+  - name: src/graph
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: src/graph/bfs.hpp
+      title: src/graph/bfs.hpp
+    - icon: ':heavy_check_mark:'
+      path: src/graph/dijkstra.hpp
+      title: src/graph/dijkstra.hpp
   verificationCategories:
   - name: tests/aoj
     pages:
     - icon: ':heavy_check_mark:'
       path: tests/aoj/0098.test.cpp
       title: tests/aoj/0098.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/aoj/ALDS1_11_C.test.cpp
+      title: tests/aoj/ALDS1_11_C.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/aoj/GRL_1_A.test.cpp
+      title: tests/aoj/GRL_1_A.test.cpp
   - name: tests/library_checker
     pages:
     - icon: ':heavy_check_mark:'
       path: tests/library_checker/point_add_range_sum.test.cpp
       title: tests/library_checker/point_add_range_sum.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/library_checker/static_range_sum.test.cpp
+      title: tests/library_checker/static_range_sum.test.cpp
     - icon: ':heavy_check_mark:'
       path: tests/library_checker/unionfind.test.cpp
       title: tests/library_checker/unionfind.test.cpp
