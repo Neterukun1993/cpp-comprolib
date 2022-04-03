@@ -23,6 +23,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/dijkstra.hpp
       title: src/graph/dijkstra.hpp
+    - icon: ':x:'
+      path: src/graph/grid-bfs.hpp
+      title: src/graph/grid-bfs.hpp
   verificationCategories:
   - name: tests/aoj
     pages:
@@ -35,6 +38,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/aoj/GRL_1_A.test.cpp
       title: tests/aoj/GRL_1_A.test.cpp
+  - name: tests/atcoder
+    pages:
+    - icon: ':x:'
+      path: tests/atcoder/abc151_d.test.cpp
+      title: tests/atcoder/abc151_d.test.cpp
   - name: tests/library_checker
     pages:
     - icon: ':heavy_check_mark:'
