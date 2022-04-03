@@ -18,6 +18,9 @@ data:
   - name: src/graph
     pages:
     - icon: ':heavy_check_mark:'
+      path: src/graph/bellman-ford.hpp
+      title: src/graph/bellman-ford.hpp
+    - icon: ':heavy_check_mark:'
       path: src/graph/bfs.hpp
       title: src/graph/bfs.hpp
     - icon: ':heavy_check_mark:'
@@ -26,6 +29,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/grid-bfs.hpp
       title: src/graph/grid-bfs.hpp
+    - icon: ':heavy_check_mark:'
+      path: src/graph/warshall-floyd.hpp
+      title: src/graph/warshall-floyd.hpp
   verificationCategories:
   - name: tests/aoj
     pages:
@@ -38,6 +44,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/aoj/GRL_1_A.test.cpp
       title: tests/aoj/GRL_1_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/aoj/GRL_1_B.test.cpp
+      title: tests/aoj/GRL_1_B.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/aoj/GRL_1_C.test.cpp
+      title: tests/aoj/GRL_1_C.test.cpp
   - name: tests/atcoder
     pages:
     - icon: ':heavy_check_mark:'
