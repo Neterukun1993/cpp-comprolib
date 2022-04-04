@@ -30,6 +30,9 @@ data:
       path: src/graph/grid-bfs.hpp
       title: src/graph/grid-bfs.hpp
     - icon: ':heavy_check_mark:'
+      path: src/graph/kruskal.hpp
+      title: src/graph/kruskal.hpp
+    - icon: ':heavy_check_mark:'
       path: src/graph/warshall-floyd.hpp
       title: src/graph/warshall-floyd.hpp
   verificationCategories:
@@ -50,6 +53,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/aoj/GRL_1_C.test.cpp
       title: tests/aoj/GRL_1_C.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/aoj/GRL_2_A.test.cpp
+      title: tests/aoj/GRL_2_A.test.cpp
   - name: tests/atcoder
     pages:
     - icon: ':heavy_check_mark:'
