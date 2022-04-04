@@ -3,9 +3,12 @@
 
 
 struct Edge {
-    int to;
+    int from, to;
     long long cost;
-    Edge(int to_, long long cost_) : to(to_), cost(cost_) {}
+
+    Edge(int to, long long cost) : from(-1), to(to), cost(cost) {}
+
+    Edge(int from, int to, long long cost) : from(from), to(to), cost(cost) {}
 };
 using WeightedGraph = std::vector<std::vector<Edge>>;
 
