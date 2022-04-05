@@ -35,6 +35,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/warshall-floyd.hpp
       title: src/graph/warshall-floyd.hpp
+  - name: src/random
+    pages:
+    - icon: ':warning:'
+      path: src/random/xorshift.hpp
+      title: src/random/xorshift.hpp
   verificationCategories:
   - name: tests/aoj
     pages:
