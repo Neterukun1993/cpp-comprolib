@@ -35,6 +35,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/warshall-floyd.hpp
       title: src/graph/warshall-floyd.hpp
+  - name: src/marathon
+    pages:
+    - icon: ':warning:'
+      path: src/marathon/timer.hpp
+      title: src/marathon/timer.hpp
   - name: src/random
     pages:
     - icon: ':warning:'
