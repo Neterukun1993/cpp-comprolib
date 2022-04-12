@@ -30,6 +30,9 @@ data:
       path: src/graph/grid-bfs.hpp
       title: src/graph/grid-bfs.hpp
     - icon: ':heavy_check_mark:'
+      path: src/graph/grid-dijkstra.hpp
+      title: src/graph/grid-dijkstra.hpp
+    - icon: ':heavy_check_mark:'
       path: src/graph/kruskal.hpp
       title: src/graph/kruskal.hpp
     - icon: ':heavy_check_mark:'
@@ -82,5 +85,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/library_checker/unionfind.test.cpp
       title: tests/library_checker/unionfind.test.cpp
+  - name: tests/yukicoder
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: tests/yukicoder/0020.test.cpp
+      title: tests/yukicoder/0020.test.cpp
 layout: toppage
 ---
