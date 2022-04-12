@@ -24,6 +24,9 @@ data:
       path: src/graph/bfs.hpp
       title: src/graph/bfs.hpp
     - icon: ':heavy_check_mark:'
+      path: src/graph/dijkstra-trace.hpp
+      title: src/graph/dijkstra-trace.hpp
+    - icon: ':heavy_check_mark:'
       path: src/graph/dijkstra.hpp
       title: src/graph/dijkstra.hpp
     - icon: ':heavy_check_mark:'
@@ -79,6 +82,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/library_checker/point_add_range_sum.test.cpp
       title: tests/library_checker/point_add_range_sum.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/library_checker/shortest_path.test.cpp
+      title: tests/library_checker/shortest_path.test.cpp
     - icon: ':heavy_check_mark:'
       path: tests/library_checker/static_range_sum.test.cpp
       title: tests/library_checker/static_range_sum.test.cpp
