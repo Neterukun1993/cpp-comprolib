@@ -20,7 +20,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/bellman-ford.hpp
       title: src/graph/bellman-ford.hpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: src/graph/bfs-trace.hpp
       title: src/graph/bfs-trace.hpp
     - icon: ':heavy_check_mark:'
@@ -60,7 +60,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/aoj/0098.test.cpp
       title: tests/aoj/0098.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: tests/aoj/ALDS1_11_C.bfs-trace.test.cpp
       title: tests/aoj/ALDS1_11_C.bfs-trace.test.cpp
     - icon: ':heavy_check_mark:'
