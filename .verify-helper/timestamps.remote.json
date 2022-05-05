@@ -7,6 +7,7 @@
 "tests/aoj/GRL_1_C.test.cpp": "2022-04-04 01:23:39 +0900",
 "tests/aoj/GRL_2_A.test.cpp": "2022-04-05 00:37:49 +0900",
 "tests/atcoder/abc151_d.test.cpp": "2022-04-04 00:13:18 +0900",
+"tests/atcoder/abc151_d_grid-bfs-trace.test.cpp": "2022-05-05 16:08:30 +0900",
 "tests/library_checker/point_add_range_sum.test.cpp": "2022-04-03 01:54:56 +0900",
 "tests/library_checker/shortest_path.test.cpp": "2022-04-13 00:13:08 +0900",
 "tests/library_checker/static_range_sum.test.cpp": "2022-04-03 02:10:20 +0900",
