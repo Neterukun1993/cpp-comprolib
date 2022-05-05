@@ -44,8 +44,8 @@ data:
   timestamp: '2022-04-03 01:52:28+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - tests/aoj/GRL_2_A.test.cpp
   - tests/library_checker/unionfind.test.cpp
+  - tests/aoj/GRL_2_A.test.cpp
 documentation_of: src/data-structure/union-find.hpp
 layout: document
 redirect_from:

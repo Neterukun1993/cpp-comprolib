@@ -32,6 +32,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/dijkstra.hpp
       title: src/graph/dijkstra.hpp
+    - icon: ':x:'
+      path: src/graph/grid-bfs-trace.hpp
+      title: src/graph/grid-bfs-trace.hpp
     - icon: ':heavy_check_mark:'
       path: src/graph/grid-bfs.hpp
       title: src/graph/grid-bfs.hpp
@@ -83,6 +86,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/atcoder/abc151_d.test.cpp
       title: tests/atcoder/abc151_d.test.cpp
+    - icon: ':x:'
+      path: tests/atcoder/abc151_d_grid-bfs-trace.test.cpp
+      title: tests/atcoder/abc151_d_grid-bfs-trace.test.cpp
   - name: tests/library_checker
     pages:
     - icon: ':heavy_check_mark:'
