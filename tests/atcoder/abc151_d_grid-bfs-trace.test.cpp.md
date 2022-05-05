@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: src/graph/grid-bfs-trace.hpp
     title: src/graph/grid-bfs-trace.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://atcoder.jp/contests/abc151/tasks/abc151_d
@@ -88,7 +88,7 @@ data:
   path: tests/atcoder/abc151_d_grid-bfs-trace.test.cpp
   requiredBy: []
   timestamp: '2022-05-05 16:08:30+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: tests/atcoder/abc151_d_grid-bfs-trace.test.cpp
 layout: document
