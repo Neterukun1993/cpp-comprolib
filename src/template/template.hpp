@@ -18,6 +18,5 @@
 #include <unordered_set>
 #include <vector>
 
-
 #define REP(i, n) for (int i = 0; i < (int)(n); ++ (i))
 #define REP3(i, m, n) for (int i = (m); (i) < (int)(n); ++ (i))
