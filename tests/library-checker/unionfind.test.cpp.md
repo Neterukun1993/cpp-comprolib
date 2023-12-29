@@ -2,8 +2,8 @@
 data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
-    path: src/_template/template.hpp
-    title: src/_template/template.hpp
+    path: src/template/template.hpp
+    title: src/template/template.hpp
   - icon: ':heavy_check_mark:'
     path: src/union-find/union-find.hpp
     title: src/union-find/union-find.hpp
@@ -18,13 +18,13 @@ data:
     links:
     - https://judge.yosupo.jp/problem/unionfind
   bundledCode: "#line 1 \"tests/library-checker/unionfind.test.cpp\"\n#define PROBLEM\
-    \ \"https://judge.yosupo.jp/problem/unionfind\"\n\n#line 1 \"src/_template/template.hpp\"\
+    \ \"https://judge.yosupo.jp/problem/unionfind\"\n\n#line 1 \"src/template/template.hpp\"\
     \n#include <algorithm>\n#include <array>\n#include <bitset>\n#include <cassert>\n\
     #include <chrono>\n#include <cmath>\n#include <cstdint>\n#include <cstring>\n\
     #include <deque>\n#include <iostream>\n#include <map>\n#include <memory>\n#include\
     \ <queue>\n#include <random>\n#include <set>\n#include <string>\n#include <unordered_map>\n\
-    #include <unordered_set>\n#include <vector>\n\n\n#define REP(i, n) for (int i\
-    \ = 0; i < (int)(n); ++ (i))\n#define REP3(i, m, n) for (int i = (m); (i) < (int)(n);\
+    #include <unordered_set>\n#include <vector>\n\n#define REP(i, n) for (int i =\
+    \ 0; i < (int)(n); ++ (i))\n#define REP3(i, m, n) for (int i = (m); (i) < (int)(n);\
     \ ++ (i))\n#line 2 \"src/union-find/union-find.hpp\"\n\nstruct UnionFind {\n \
     \   std::vector<int> parent;\n    int cnt;\n\n    UnionFind(int n) : parent(n,\
     \ -1), cnt(n) {}\n\n    int root(int x) {\n        if (parent[x] < 0) return x;\n\
@@ -41,19 +41,19 @@ data:
     \ 1 : 0) << std::endl;\n        } else {\n            uf.merge(u, v);\n      \
     \  }\n    }\n}\n"
   code: "#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\n\n#include\
-    \ \"../../src/_template/template.hpp\"\n#include \"../../src/union-find/union-find.hpp\"\
+    \ \"../../src/template/template.hpp\"\n#include \"../../src/union-find/union-find.hpp\"\
     \n\nint main() {\n    int n, q;\n    std::cin >> n >> q;\n\n    UnionFind uf(n);\n\
     \n    for (int i = 0; i < q; i++) {\n        int flag, u, v;\n        std::cin\
     \ >> flag >> u >> v;\n        if (flag) {\n            std::cout << ((uf.same(u,\
     \ v)) ? 1 : 0) << std::endl;\n        } else {\n            uf.merge(u, v);\n\
     \        }\n    }\n}\n"
   dependsOn:
-  - src/_template/template.hpp
+  - src/template/template.hpp
   - src/union-find/union-find.hpp
   isVerificationFile: true
   path: tests/library-checker/unionfind.test.cpp
   requiredBy: []
-  timestamp: '2023-12-30 02:35:26+09:00'
+  timestamp: '2023-12-30 03:12:06+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: tests/library-checker/unionfind.test.cpp
