@@ -15,9 +15,18 @@ struct Graph {
     int N, M;
     std::vector<std::vector<Edge<T>>> adjacencies;
 
+    Graph(bool is_directed = true) : is_directed(is_directed), N(0), M(0), adjacencies(0) {}
+
     Graph(int N, bool is_directed = true) : is_directed(is_directed), N(N), M(0), adjacencies(N) {}
 
     inline const std::vector<Edge<T>> &operator[] (int k ) const {return adjacencies[k]; }
+
+    void init(int N_) {
+        N = N_;
+        M = 0;
+        adjacencies.clear();
+        adjacencies.resize(N);
+    }
 
     int size() const { return N; }
 
@@ -27,7 +36,10 @@ struct Graph {
         auto e = Edge<T>(from, to, cost, id);
 
         adjacencies[from].emplace_back(e);
-        if (!is_directed) adjacencies[to].emplace_back(e);
+        if (!is_directed) {
+            auto e2 = Edge<T>(to, from, cost, id);
+            adjacencies[to].emplace_back(e2);
+        }
 
         M++;
     }
