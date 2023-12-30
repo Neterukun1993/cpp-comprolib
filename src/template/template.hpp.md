@@ -4,8 +4,23 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: tests/aoj/ALDS1_11_C.test.cpp
+    title: tests/aoj/ALDS1_11_C.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/aoj/GRL_1_A.test.cpp
+    title: tests/aoj/GRL_1_A.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/aoj/GRL_1_B.test.cpp
+    title: tests/aoj/GRL_1_B.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/aoj/GRL_2_A.test.cpp
+    title: tests/aoj/GRL_2_A.test.cpp
+  - icon: ':heavy_check_mark:'
     path: tests/library-checker/unionfind.test.cpp
     title: tests/library-checker/unionfind.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/unittest/xorshift.test.cpp
+    title: tests/unittest/xorshift.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -108,7 +123,12 @@ data:
   timestamp: '2023-12-30 03:12:06+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - tests/unittest/xorshift.test.cpp
   - tests/library-checker/unionfind.test.cpp
+  - tests/aoj/GRL_1_A.test.cpp
+  - tests/aoj/GRL_2_A.test.cpp
+  - tests/aoj/ALDS1_11_C.test.cpp
+  - tests/aoj/GRL_1_B.test.cpp
 documentation_of: src/template/template.hpp
 layout: document
 redirect_from:
