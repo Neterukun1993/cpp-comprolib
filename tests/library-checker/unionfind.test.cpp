@@ -1,7 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/unionfind"
 
 #include "../../src/template/template.hpp"
-#include "../../src/union-find/union-find.hpp"
+#include "../../src/data-structure/union-find/union-find.hpp"
 
 int main() {
     int n, q;
