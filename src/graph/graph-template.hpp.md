@@ -6,6 +6,9 @@ data:
     path: src/graph/minimum-spanning-tree/kruskal.hpp
     title: src/graph/minimum-spanning-tree/kruskal.hpp
   - icon: ':heavy_check_mark:'
+    path: src/graph/misc/low-link.hpp
+    title: src/graph/misc/low-link.hpp
+  - icon: ':heavy_check_mark:'
     path: src/graph/shortest-path/bellman-ford.hpp
     title: src/graph/shortest-path/bellman-ford.hpp
   - icon: ':heavy_check_mark:'
@@ -27,6 +30,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: tests/aoj/GRL_2_A.test.cpp
     title: tests/aoj/GRL_2_A.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/aoj/GRL_3_A.test.cpp
+    title: tests/aoj/GRL_3_A.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/aoj/GRL_3_B.test.cpp
+    title: tests/aoj/GRL_3_B.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -71,10 +80,13 @@ data:
   - src/graph/shortest-path/bellman-ford.hpp
   - src/graph/shortest-path/bfs.hpp
   - src/graph/shortest-path/dijkstra.hpp
+  - src/graph/misc/low-link.hpp
   timestamp: '2023-12-30 14:53:19+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - tests/aoj/GRL_3_A.test.cpp
   - tests/aoj/GRL_1_A.test.cpp
+  - tests/aoj/GRL_3_B.test.cpp
   - tests/aoj/GRL_2_A.test.cpp
   - tests/aoj/ALDS1_11_C.test.cpp
   - tests/aoj/GRL_1_B.test.cpp

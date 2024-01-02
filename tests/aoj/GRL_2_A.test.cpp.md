@@ -47,14 +47,15 @@ data:
     \  auto e2 = Edge<T>(to, from, cost, id);\n            adjacencies[to].emplace_back(e2);\n\
     \        }\n\n        M++;\n    }\n};\n#line 2 \"src/data-structure/union-find/union-find.hpp\"\
     \n\nstruct UnionFind {\n    std::vector<int> parent;\n    int cnt;\n\n    UnionFind(int\
-    \ n) : parent(n, -1), cnt(n) {}\n\n    int root(int x) {\n        if (parent[x]\
-    \ < 0) return x;\n        else return parent[x] = root(parent[x]);\n    }\n\n\
-    \    bool merge(int x, int y) {\n        x = root(x);\n        y = root(y);\n\
-    \        if (x == y) return false;\n        if (parent[x] > parent[y]) std::swap(x,\
-    \ y);\n        parent[x] += parent[y];\n        parent[y] = x;\n        cnt -=\
-    \ 1;\n        return true;\n    }\n\n    int same(int x, int y) { return root(x)\
-    \ == root(y); }\n\n    int size(int x) { return -parent[root(x)]; }\n\n    int\
-    \ count() { return cnt; }\n};\n#line 4 \"src/graph/minimum-spanning-tree/kruskal.hpp\"\
+    \ n) : parent(n, -1), cnt(n) {}\n\n    void clear() {\n        std::fill(parent.begin(),\
+    \ parent.end(), -1);\n        cnt = (int)parent.size();\n    }\n\n    int root(int\
+    \ x) {\n        if (parent[x] < 0) return x;\n        else return parent[x] =\
+    \ root(parent[x]);\n    }\n\n    bool merge(int x, int y) {\n        x = root(x);\n\
+    \        y = root(y);\n        if (x == y) return false;\n        if (parent[x]\
+    \ > parent[y]) std::swap(x, y);\n        parent[x] += parent[y];\n        parent[y]\
+    \ = x;\n        cnt -= 1;\n        return true;\n    }\n\n    int same(int x,\
+    \ int y) { return root(x) == root(y); }\n\n    int size(int x) { return -parent[root(x)];\
+    \ }\n\n    int count() { return cnt; }\n};\n#line 4 \"src/graph/minimum-spanning-tree/kruskal.hpp\"\
     \n\ntemplate <typename T>\nT kruskal(int n, std::vector<Edge<T>> &edges) {\n \
     \   // edges\u306F\u7834\u58CA\u7684\u306B\u30BD\u30FC\u30C8\u3055\u308C\u308B\
     \n    std::sort(edges.begin(), edges.end(), [](const Edge<T> &a, const Edge<T>\
@@ -92,7 +93,7 @@ data:
   isVerificationFile: true
   path: tests/aoj/GRL_2_A.test.cpp
   requiredBy: []
-  timestamp: '2023-12-30 14:53:19+09:00'
+  timestamp: '2024-01-03 04:55:39+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: tests/aoj/GRL_2_A.test.cpp

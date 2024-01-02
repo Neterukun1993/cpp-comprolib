@@ -4,6 +4,9 @@ data:
   - name: src/data-structure/union-find
     pages:
     - icon: ':heavy_check_mark:'
+      path: src/data-structure/union-find/union-find-with-undo.hpp
+      title: src/data-structure/union-find/union-find-with-undo.hpp
+    - icon: ':heavy_check_mark:'
       path: src/data-structure/union-find/union-find.hpp
       title: src/data-structure/union-find/union-find.hpp
   - name: src/graph
@@ -16,6 +19,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/minimum-spanning-tree/kruskal.hpp
       title: src/graph/minimum-spanning-tree/kruskal.hpp
+  - name: src/graph/misc
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: src/graph/misc/low-link.hpp
+      title: src/graph/misc/low-link.hpp
   - name: src/graph/shortest-path
     pages:
     - icon: ':heavy_check_mark:'
@@ -27,8 +35,16 @@ data:
     - icon: ':heavy_check_mark:'
       path: src/graph/shortest-path/dijkstra.hpp
       title: src/graph/shortest-path/dijkstra.hpp
+  - name: src/misc
+    pages:
+    - icon: ':warning:'
+      path: src/misc/timer.hpp
+      title: src/misc/timer.hpp
   - name: src/random
     pages:
+    - icon: ':heavy_check_mark:'
+      path: src/random/shuffle.hpp
+      title: src/random/shuffle.hpp
     - icon: ':heavy_check_mark:'
       path: src/random/xorshift.hpp
       title: src/random/xorshift.hpp
@@ -52,13 +68,28 @@ data:
     - icon: ':heavy_check_mark:'
       path: tests/aoj/GRL_2_A.test.cpp
       title: tests/aoj/GRL_2_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/aoj/GRL_3_A.test.cpp
+      title: tests/aoj/GRL_3_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/aoj/GRL_3_B.test.cpp
+      title: tests/aoj/GRL_3_B.test.cpp
   - name: tests/library-checker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: tests/library-checker/unionfind-with-undo.test.cpp
+      title: tests/library-checker/unionfind-with-undo.test.cpp
     - icon: ':heavy_check_mark:'
       path: tests/library-checker/unionfind.test.cpp
       title: tests/library-checker/unionfind.test.cpp
   - name: tests/unittest
     pages:
+    - icon: ':heavy_check_mark:'
+      path: tests/unittest/shuffle.test.cpp
+      title: tests/unittest/shuffle.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: tests/unittest/unionfind-with-undo.test.cpp
+      title: tests/unittest/unionfind-with-undo.test.cpp
     - icon: ':heavy_check_mark:'
       path: tests/unittest/xorshift.test.cpp
       title: tests/unittest/xorshift.test.cpp

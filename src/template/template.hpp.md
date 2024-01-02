@@ -16,8 +16,23 @@ data:
     path: tests/aoj/GRL_2_A.test.cpp
     title: tests/aoj/GRL_2_A.test.cpp
   - icon: ':heavy_check_mark:'
+    path: tests/aoj/GRL_3_A.test.cpp
+    title: tests/aoj/GRL_3_A.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/aoj/GRL_3_B.test.cpp
+    title: tests/aoj/GRL_3_B.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/library-checker/unionfind-with-undo.test.cpp
+    title: tests/library-checker/unionfind-with-undo.test.cpp
+  - icon: ':heavy_check_mark:'
     path: tests/library-checker/unionfind.test.cpp
     title: tests/library-checker/unionfind.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/unittest/shuffle.test.cpp
+    title: tests/unittest/shuffle.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/unittest/unionfind-with-undo.test.cpp
+    title: tests/unittest/unionfind-with-undo.test.cpp
   - icon: ':heavy_check_mark:'
     path: tests/unittest/xorshift.test.cpp
     title: tests/unittest/xorshift.test.cpp
@@ -124,8 +139,13 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - tests/unittest/xorshift.test.cpp
+  - tests/unittest/unionfind-with-undo.test.cpp
+  - tests/unittest/shuffle.test.cpp
+  - tests/library-checker/unionfind-with-undo.test.cpp
   - tests/library-checker/unionfind.test.cpp
+  - tests/aoj/GRL_3_A.test.cpp
   - tests/aoj/GRL_1_A.test.cpp
+  - tests/aoj/GRL_3_B.test.cpp
   - tests/aoj/GRL_2_A.test.cpp
   - tests/aoj/ALDS1_11_C.test.cpp
   - tests/aoj/GRL_1_B.test.cpp

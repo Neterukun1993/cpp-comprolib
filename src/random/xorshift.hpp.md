@@ -1,8 +1,14 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: src/random/shuffle.hpp
+    title: src/random/shuffle.hpp
   _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: tests/unittest/shuffle.test.cpp
+    title: tests/unittest/shuffle.test.cpp
   - icon: ':heavy_check_mark:'
     path: tests/unittest/xorshift.test.cpp
     title: tests/unittest/xorshift.test.cpp
@@ -20,11 +26,13 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: src/random/xorshift.hpp
-  requiredBy: []
+  requiredBy:
+  - src/random/shuffle.hpp
   timestamp: '2023-12-30 14:52:59+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - tests/unittest/xorshift.test.cpp
+  - tests/unittest/shuffle.test.cpp
 documentation_of: src/random/xorshift.hpp
 layout: document
 redirect_from:
