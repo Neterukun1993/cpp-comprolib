@@ -22,11 +22,17 @@ data:
     path: tests/aoj/GRL_3_B.test.cpp
     title: tests/aoj/GRL_3_B.test.cpp
   - icon: ':heavy_check_mark:'
+    path: tests/library-checker/enumerable-union-find.test.cpp
+    title: tests/library-checker/enumerable-union-find.test.cpp
+  - icon: ':heavy_check_mark:'
     path: tests/library-checker/unionfind-with-undo.test.cpp
     title: tests/library-checker/unionfind-with-undo.test.cpp
   - icon: ':heavy_check_mark:'
     path: tests/library-checker/unionfind.test.cpp
     title: tests/library-checker/unionfind.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/unittest/enumerable-union-find.test.cpp
+    title: tests/unittest/enumerable-union-find.test.cpp
   - icon: ':heavy_check_mark:'
     path: tests/unittest/shuffle.test.cpp
     title: tests/unittest/shuffle.test.cpp
@@ -140,8 +146,10 @@ data:
   verifiedWith:
   - tests/unittest/xorshift.test.cpp
   - tests/unittest/unionfind-with-undo.test.cpp
+  - tests/unittest/enumerable-union-find.test.cpp
   - tests/unittest/shuffle.test.cpp
   - tests/library-checker/unionfind-with-undo.test.cpp
+  - tests/library-checker/enumerable-union-find.test.cpp
   - tests/library-checker/unionfind.test.cpp
   - tests/aoj/GRL_3_A.test.cpp
   - tests/aoj/GRL_1_A.test.cpp

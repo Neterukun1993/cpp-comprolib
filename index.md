@@ -4,6 +4,9 @@ data:
   - name: src/data-structure/union-find
     pages:
     - icon: ':heavy_check_mark:'
+      path: src/data-structure/union-find/enumerable-union-find.hpp
+      title: src/data-structure/union-find/enumerable-union-find.hpp
+    - icon: ':heavy_check_mark:'
       path: src/data-structure/union-find/union-find-with-undo.hpp
       title: src/data-structure/union-find/union-find-with-undo.hpp
     - icon: ':heavy_check_mark:'
@@ -77,6 +80,9 @@ data:
   - name: tests/library-checker
     pages:
     - icon: ':heavy_check_mark:'
+      path: tests/library-checker/enumerable-union-find.test.cpp
+      title: tests/library-checker/enumerable-union-find.test.cpp
+    - icon: ':heavy_check_mark:'
       path: tests/library-checker/unionfind-with-undo.test.cpp
       title: tests/library-checker/unionfind-with-undo.test.cpp
     - icon: ':heavy_check_mark:'
@@ -84,6 +90,9 @@ data:
       title: tests/library-checker/unionfind.test.cpp
   - name: tests/unittest
     pages:
+    - icon: ':heavy_check_mark:'
+      path: tests/unittest/enumerable-union-find.test.cpp
+      title: tests/unittest/enumerable-union-find.test.cpp
     - icon: ':heavy_check_mark:'
       path: tests/unittest/shuffle.test.cpp
       title: tests/unittest/shuffle.test.cpp
