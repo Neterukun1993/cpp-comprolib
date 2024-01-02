@@ -6,6 +6,11 @@ struct UnionFind {
 
     UnionFind(int n) : parent(n, -1), cnt(n) {}
 
+    void clear() {
+        std::fill(parent.begin(), parent.end(), -1);
+        cnt = (int)parent.size();
+    }
+
     int root(int x) {
         if (parent[x] < 0) return x;
         else return parent[x] = root(parent[x]);
