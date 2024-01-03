@@ -4,8 +4,14 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: tests/aoj/0098.test.cpp
+    title: tests/aoj/0098.test.cpp
+  - icon: ':heavy_check_mark:'
     path: tests/aoj/ALDS1_11_C.test.cpp
     title: tests/aoj/ALDS1_11_C.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/aoj/DSL_2_E.test.cpp
+    title: tests/aoj/DSL_2_E.test.cpp
   - icon: ':heavy_check_mark:'
     path: tests/aoj/GRL_1_A.test.cpp
     title: tests/aoj/GRL_1_A.test.cpp
@@ -24,6 +30,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: tests/library-checker/enumerable-union-find.test.cpp
     title: tests/library-checker/enumerable-union-find.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/library-checker/point-add-range-sum.test.cpp
+    title: tests/library-checker/point-add-range-sum.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: tests/library-checker/static-range-sum.test.cpp
+    title: tests/library-checker/static-range-sum.test.cpp
   - icon: ':heavy_check_mark:'
     path: tests/library-checker/unionfind-with-undo.test.cpp
     title: tests/library-checker/unionfind-with-undo.test.cpp
@@ -151,6 +163,10 @@ data:
   - tests/library-checker/unionfind-with-undo.test.cpp
   - tests/library-checker/enumerable-union-find.test.cpp
   - tests/library-checker/unionfind.test.cpp
+  - tests/library-checker/point-add-range-sum.test.cpp
+  - tests/library-checker/static-range-sum.test.cpp
+  - tests/aoj/0098.test.cpp
+  - tests/aoj/DSL_2_E.test.cpp
   - tests/aoj/GRL_3_A.test.cpp
   - tests/aoj/GRL_1_A.test.cpp
   - tests/aoj/GRL_3_B.test.cpp
